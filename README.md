@@ -7,6 +7,8 @@ Has been tested working on HEN 4.89. I would advise against installing this on a
 
 Please bear in mind that I am a total noob when it comes to XMBML modding. It's working for me personally, but I am not responsible for the chance of you bricking your own console with this. Someone with more experience could tidy this up or just make it 10x better overall but for now it's working fine.
 
+If you wish to have a version where DeViL303's excellent SDAT Dumper is also available for download from the very same menu (no guaruntees about it appearing under the Builds folder, however.) it can be found [at this branch I made recently](https://github.com/ElderLo1/PS3_tv2home_xmbml_mod/tree/SDAT-dumper-included).
+
 ## Can I fork or make contributions to this?
 Sure can! Just be sure to test it on your own PS3 (preferrably with video/image proof of it working and info about what CFW/HEN you're running as well) before you commit it or make a pull request!
 
@@ -14,7 +16,6 @@ Sure can! Just be sure to test it on your own PS3 (preferrably with video/image 
 - Find a way to give each version on the XMB it's own title with the version number rather than all of them simply saying "PlayStation Home". Hope it's possible without RCO editing but very unlikely to be honest. As of right now it shows 4 builds with the same name (The download folder lists 0.41, 0.97, 1.00, and 1.86 in that order for reference)
 - Quit option still appears under PSN. Find a way to move it to TV/Video Services without conflicting with the PS Store if possible (or users of this mod can just use the old PS store instead since it's sooo much better than the new garbage fire of a store but I digress)
 - Icon for downloading builds and text for builds to be downloaded do not appear on in-game XMB. While minor, i'd like to get this fixed. May help if the first thing on the To-Do list is completed somehow.
-- Optionally allow users to install the Home SDAT dumper, maybe? I dunno. Maybe make a fork or seperate version for those who want such a thing. I'd personally use RPCS3 for such a thing but if people want it I'd be happy to add it.
 
 ## Install instructions
 1. Download and unzip this repository or use git to clone it.
