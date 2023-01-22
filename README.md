@@ -14,7 +14,7 @@ Sure can! Just be sure to test it on your own PS3 (preferrably with video/image 
 
 ## To-do:
 - Find a way to give each version on the XMB it's own title with the version number rather than all of them simply saying "PlayStation Home". Hope it's possible without RCO editing but very unlikely to be honest. As of right now it shows 4 builds with the same name (The download folder lists 0.41, 0.97, 1.00, and 1.86 in that order for reference)
-- Quit option still appears under PSN. Find a way to move it to TV/Video Services without conflicting with the PS Store if possible (or users of this mod can just use the old PS store instead since it's sooo much better than the new garbage fire of a store but I digress)
+- Quit option still appears under PSN. Find a way to move it to TV/Video Services without conflicting with anything else in that category (i.e. custom items in the SF category)
 - Icon for downloading builds and text for builds to be downloaded do not appear on in-game XMB. While minor, i'd like to get this fixed. May help if the first thing on the To-Do list is completed somehow.
 
 ## Install instructions
