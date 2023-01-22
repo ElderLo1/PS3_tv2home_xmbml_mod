@@ -109,12 +109,21 @@
 				<Pair key="content_id"><String>EP9000-NPIA00005_00-HOME000000000001</String></Pair>
 				<Pair key="prod_pict_path"><String>/dev_flash/vsh/resource/explore/icon/icon_home.png</String></Pair>
  			</Table>
+			<Table key="home_install_sdatdumper">
+				<Pair key="info"><String>net_package_install</String></Pair>
+				<Pair key="pkg_src"><String>http://path_to_webserver_and_home_pkg/MP0001-DUMPSDATS_00-0000111122223333-E.pkg</String></Pair>
+				<Pair key="pkg_src_qa"><String>http://path_to_webserver_and_home_pkg/MP0001-DUMPSDATS_00-0000111122223333-E.pkg</String></Pair>
+				<Pair key="content_name"><String>msg_playstation_home</String></Pair>
+				<Pair key="content_id"><String>MP0001-DUMPSDATS_00-0000111122223333</String></Pair>
+				<Pair key="prod_pict_path"><String>/dev_flash/vsh/resource/explore/icon/icon_homesdat.png</String></Pair>
+ 			</Table>
 		</Attributes>
 		<Items>
 			<Item class="type:x-xmb/xmlnpsignup" key="home_install_041"	attr="home_install_041" />
 			<Item class="type:x-xmb/xmlnpsignup" key="home_install_097"	attr="home_install_097" />
 			<Item class="type:x-xmb/xmlnpsignup" key="home_install_100"	attr="home_install_100" />
 			<Item class="type:x-xmb/xmlnpsignup" key="home_install_186"	attr="home_install_186" />
+			<Item class="type:x-xmb/xmlnpsignup" key="home_install_sdatdumper"	attr="home_install_sdatdumper" />
 		</Items>
 	</View>
 
