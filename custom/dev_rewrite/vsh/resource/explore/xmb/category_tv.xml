@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XMBML version="1.0">
+	<View id="root">
+		<Attributes>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gameexit"
+				src="sel://localhost/ingame?path=category_tv.xml#seg_gameexit&type=tv"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_home_folder"
+				src="#seg_home_folder"
+				/>
+			<!--<Query
+				class="type:x-xmb/folder-pixmap"
+				key="gameDir"
+				src="xcb://localhost/query?limit=2048&table=MMS_MEDIA_TYPE_HDD&sort=-Game:Common.stat.rating-Game:Common.timeCreated&cond=Aa+Game:Common.title+Ae+Game:Game.category HM"
+				/>-->
+
+		</Items>
+	</View>
+
+	<View id="seg_gameexit">
+		<Items>
+			<Item class="type:x-xmb/xmlgameexit" key="gameexit" />
+		</Items>
+	</View>
+
+	<View id="seg_home_folder">
+		<Attributes>
+			<Table key="home_folder">
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/icon_homefolder.png</String></Pair>
+				<Pair key="title"><String>PlayStation®Home Builds</String></Pair>
+				<Pair key="info"><String>Use a selection of installed offline-compatible builds of PlayStation®Home.</String></Pair>
+				<Pair key="str_noitem"><String>msg_error_no_content</String></Pair>
+				<Pair key="action"><String>exec_game</String></Pair>
+				<Pair key="child"><>segment</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="home_folder"  attr="home_folder" src="#seg_home_folder_inner" />
+		</Items>
+	</View>
+
+	<View id="seg_home_folder_inner">
+		<Items>
+                        <Query class="type:x-xmb/folder-pixmap" key="hf_dl_inner" src="#seg_home_folder_dl" />
+			<Query class="type:x-xmb/folder-pixmap" key="contents"  attr="contents" src="xcb://localhost/query?limit=2048&table=MMS_MEDIA_TYPE_HDD&sort=-Game:Common.stat.rating-Game:Common.timeCreated&cond=Aa+Game:Common.title+Ae+Game:Game.category HM" />
+		</Items>
+	</View>
+
+	<View id="seg_home_folder_dl">
+		<Attributes>
+			<Table key="home_folder_dl">
+				<Pair key="icon_rsc"><String>tex_psn</String></Pair>
+				<Pair key="title"><String>Download Builds</String></Pair>
+				<Pair key="info"><String>Download and install offline-compatible builds of PlayStation®Home.</String></Pair>
+				<Pair key="str_noitem"><String>msg_error_no_content</String></Pair>
+				<Pair key="child"><>segment</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="home_folder_dl"  attr="home_folder_dl" src="#seg_dl_inner" />
+		</Items>
+	</View>
+
+
+	<View id="seg_dl_inner">
+		<Items>
+                        <Query class="type:x-xmb/folder-pixmap" key="install_builds" src="#seg_install_builds" />
+		</Items>
+	</View>
+
+	<View id="seg_install_builds">
+		<Attributes>
+			<Table key="home_install_041">
+				<Pair key="info"><String>net_package_install</String></Pair>
+				<Pair key="pkg_src"><String>http://path_to_webserver_and_home_pkg/IP9100-NPIA09008_00-TAMGENERALMARKET-E.pkg</String></Pair>
+				<Pair key="pkg_src_qa"><String>http://path_to_webserver_and_home_pkg/IP9100-NPIA09008_00-TAMGENERALMARKET-E.pkg</String></Pair>
+				<Pair key="content_name"><String>msg_playstation_home</String></Pair>
+				<Pair key="content_id"><String>IP9100-NPIA09008_00-TAMGENERALMARKET</String></Pair>
+				<Pair key="prod_pict_path"><String>/dev_flash/vsh/resource/explore/icon/icon_cbhome.png</String></Pair>
+ 			</Table>
+			<Table key="home_install_097">
+				<Pair key="info"><String>net_package_install</String></Pair>
+				<Pair key="pkg_src"><String>http://path_to_webserver_and_home_pkg/IP9100-NPIA00007_00-0000111122223333-E.pkg</String></Pair>
+				<Pair key="pkg_src_qa"><String>http://path_to_webserver_and_home_pkg/IP9100-NPIA00007_00-0000111122223333-E.pkg</String></Pair>
+				<Pair key="content_name"><String>msg_playstation_home</String></Pair>
+				<Pair key="content_id"><String>IP9100-NPIA00007_00-0000111122223333</String></Pair>
+				<Pair key="prod_pict_path"><String>/dev_flash/vsh/resource/explore/icon/icon_cbhome.png</String></Pair>
+ 			</Table>
+			<Table key="home_install_100">
+				<Pair key="info"><String>net_package_install</String></Pair>
+				<Pair key="pkg_src"><String>http://path_to_webserver_and_home_pkg/IP9100-NPIA09002_00-0000111122223333-E.pkg</String></Pair>
+				<Pair key="pkg_src_qa"><String>http://path_to_webserver_and_home_pkg/IP9100-NPIA09002_00-0000111122223333-E.pkg</String></Pair>
+				<Pair key="content_name"><String>msg_playstation_home</String></Pair>
+				<Pair key="content_id"><String>IP9100-NPIA09002_00-0000111122223333</String></Pair>
+				<Pair key="prod_pict_path"><String>/dev_flash/vsh/resource/explore/icon/icon_cbhome.png</String></Pair>
+ 			</Table>
+			<Table key="home_install_186">
+				<Pair key="info"><String>net_package_install</String></Pair>
+				<Pair key="pkg_src"><String>http://path_to_webserver_and_home_pkg/EP9000-NPIA00005_00-HOME000000000001-E.pkg</String></Pair>
+				<Pair key="pkg_src_qa"><String>http://path_to_webserver_and_home_pkg/EP9000-NPIA00005_00-HOME000000000001-E.pkg</String></Pair>
+				<Pair key="content_name"><String>msg_playstation_home</String></Pair>
+				<Pair key="content_id"><String>EP9000-NPIA00005_00-HOME000000000001</String></Pair>
+				<Pair key="prod_pict_path"><String>/dev_flash/vsh/resource/explore/icon/icon_home.png</String></Pair>
+ 			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="home_install_041"	attr="home_install_041" />
+			<Item class="type:x-xmb/xmlnpsignup" key="home_install_097"	attr="home_install_097" />
+			<Item class="type:x-xmb/xmlnpsignup" key="home_install_100"	attr="home_install_100" />
+			<Item class="type:x-xmb/xmlnpsignup" key="home_install_186"	attr="home_install_186" />
+		</Items>
+	</View>
+
+</XMBML>
