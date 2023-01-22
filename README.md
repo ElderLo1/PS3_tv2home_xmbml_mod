@@ -14,7 +14,6 @@ Sure can! Just be sure to test it on your own PS3 (preferrably with video/image 
 - Find a way to give each version on the XMB it's own title with the version number rather than all of them simply saying "PlayStation Home". Hope it's possible without RCO editing but very unlikely to be honest. As of right now it shows 4 builds with the same name (The download folder lists 0.41, 0.97, 1.00, and 1.86 in that order for reference)
 - Quit option still appears under PSN. Find a way to move it to TV/Video Services without conflicting with the PS Store if possible (or users of this mod can just use the old PS store instead since it's sooo much better than the new garbage fire of a store but I digress)
 - Icon for downloading builds and text for builds to be downloaded do not appear on in-game XMB. While minor, i'd like to get this fixed. May help if the first thing on the To-Do list is completed somehow.
-- Optionally allow users to install the Home SDAT dumper, maybe? I dunno. Maybe make a fork or seperate version for those who want such a thing. I'd personally use RPCS3 for such a thing but if people want it I'd be happy to add it.
 
 ## Install instructions
 1. Download and unzip this repository or use git to clone it.
@@ -26,6 +25,6 @@ Sure can! Just be sure to test it on your own PS3 (preferrably with video/image 
 7. Profit!
 
 ## Special Thanks to:
-- DeViL303 for his excellent work and documentation on XMBML as well as his offline builds of Home used in this experiment. In other words, he was probably the biggest resource for this little experiment of mine, props should really go to him!
+- DeViL303 for his excellent work and documentation on XMBML as well as his offline builds of Home and the SDAT Dumper tool used in this experiment. In other words, he was probably the biggest resource for this little experiment of mine, props should really go to him!
 - PS3DevWiki for being a good learning source for XMBML code
 - Sony for the creation of the PS3
