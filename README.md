@@ -16,6 +16,15 @@ Sure can! Just be sure to test it on your own PS3 (preferrably with video/image 
 - Icon for downloading builds and text for builds to be downloaded do not appear on in-game XMB. While minor, i'd like to get this fixed. May help if the first thing on the To-Do list is completed somehow.
 - Optionally allow users to install the Home SDAT dumper, maybe? I dunno. Maybe make a fork or seperate version for those who want such a thing. I'd personally use RPCS3 for such a thing but if people want it I'd be happy to add it.
 
+## Install instructions
+1. Download and unzip this repository or use git to clone it.
+2. Make modifications to the XML to point to your own webserver to serve the PKGs.
+3. Drag the "custom" folder onto pkg_custom.exe
+4. Install PKG on HEN-enabled or CFW PS3
+5. Restart PS3 to refresh XMB as soon as possible
+6. ???
+7. Profit!
+
 ## Special Thanks to:
 - DeViL303 for his excellent work and documentation on XMBML as well as his offline builds of Home used in this experiment. In other words, he was probably the biggest resource for this little experiment of mine, props should really go to him!
 - PS3DevWiki for being a good learning source for XMBML code
