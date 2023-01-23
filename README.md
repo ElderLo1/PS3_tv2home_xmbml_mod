@@ -9,6 +9,11 @@ Please bear in mind that I am a total noob when it comes to XMBML modding. It's 
 
 If you wish to have a version where DeViL303's excellent SDAT Dumper is also available for download from the very same menu (no guaruntees about it appearing under the Builds folder, however.) it can be found [at this branch I made recently](https://github.com/ElderLo1/PS3_tv2home_xmbml_mod/tree/SDAT-dumper-included).
 
+## Important Notes (read before proceeding!)
+- You need to edit the XMBML files in category_tv.xml to point to your webserver where the pkg files are held, otherwise it will likely 404 or time out.
+- All builds of Home Offline must have their PARAM.SFO modified to ensure the category is "HM", otherwise they will NOT appear under the builds folder!
+- By default, the XMBML files use spoofed content IDs of other apps for safety -- you can either modifiy these to original content IDs or resign your builds of Home Offline to use these spoofed content IDs. Either way, it's not gonna work without some legwork on your part.
+
 ## Can I fork or make contributions to this?
 Sure can! Just be sure to test it on your own PS3 (preferrably with video/image proof of it working and info about what CFW/HEN you're running as well) before you commit it or make a pull request!
 
